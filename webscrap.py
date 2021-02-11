@@ -8,6 +8,7 @@ data = BeautifulSoup(maison_du_monde,"html.parser") #permet de récupérer la da
 
 #print(data.prettify()) #comme le pprint 
 
+#########################################PARTIE NOM 
 carpet_name = []
 carpet_name_list = []
 
@@ -20,4 +21,18 @@ for k, item in enumerate(title_name):
 
 print(carpet_name_list)
 
+
+#########################################PARTIE PRIX
+
+carpet_price = []
+carpet_price_list = []
+
+price_text = data.find_all("div", class_="ml-auto font-weight-semibold price")
+
+for k, item in enumerate(price_text): 
+    price = item.getText()
+    carpet_price.append(price)
+    carpet_price_list.append(carpet_price[k].split()[0])
+
+print(carpet_price_list)
 
