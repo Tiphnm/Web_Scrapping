@@ -12,27 +12,29 @@ data = BeautifulSoup(maison_du_monde,"html.parser") #permet de récupérer la da
 carpet_name = []
 carpet_name_list = []
 
-title_name = data.find_all("h2", class_= "font-weight-normal expand-link name mb-0")
-
-for k, item in enumerate(title_name):
-    title = item.getText()
-    carpet_name.append(title)
-    carpet_name_list.append(carpet_name[k])
-
-print(carpet_name_list)
-
-
-#########################################PARTIE PRIX
-
 carpet_price = []
 carpet_price_list = []
 
-price_text = data.find_all("div", class_="ml-auto font-weight-semibold price")
 
-for k, item in enumerate(price_text): 
-    price = item.getText()
-    carpet_price.append(price)
-    carpet_price_list.append(carpet_price[k].split()[0])
+def name_carpet():
+    title_name = data.find_all("h2", class_= "font-weight-normal expand-link name mb-0")
 
-print(carpet_price_list)
+    for k, item in enumerate(title_name):
+        title = item.getText()
+        carpet_name.append(title)
+        carpet_name_list.append(carpet_name[k])
+
+    return carpet_name_list
+
+#########################################PARTIE PRIX
+
+def price_carpet():
+    price_text = data.find_all("div", class_="ml-auto font-weight-semibold price")
+
+    for k, item in enumerate(price_text): 
+        price = item.getText()
+        carpet_price.append(price)
+        carpet_price_list.append(carpet_price[k].split()[0])
+
+    return carpet_price_list
 
