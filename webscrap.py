@@ -26,6 +26,8 @@ def name_carpet():
 
     return carpet_name_list
 
+name_carpet()
+
 #########################################PARTIE PRIX
 
 def price_carpet():
@@ -38,3 +40,10 @@ def price_carpet():
 
     return carpet_price_list
 
+price_carpet()
+
+#########################################ZIP de mes 2 listes
+
+result= zip(carpet_name_list, carpet_price_list)
+final_carpet = set(result)
+#print(final_carpet)

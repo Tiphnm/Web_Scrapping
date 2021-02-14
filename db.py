@@ -1,31 +1,43 @@
 import sqlite3
+import pandas as pd
 from webscrap import *
 
-conn = sqlite3.connect("my_db.db")
-
-CarpetList = name_carpet()
-#print(CarpetList)
-
-CarpetPrice = price_carpet()
-#print(CarpetPrice)
 
 conn = sqlite3.connect("my_db.db")
 c = conn.cursor()
 
-def create_db():
-    c.execute("DROP TABLE carpet")
-    c.execute("CREATE TABLE IF NOT EXISTS carpet ( id INTEGER PRIMARY KEY NOT NULL, carpet_name VARCHAR(100),price VARCHAR(30))")
-    c.execute("INSERT INTO carpet Values(1,'Nom','prix')")
-    c.execute("SELECT * FROM carpet")
-    conn.commit()
+label_list = name_carpet()
+price_list = price_carpet()
 
-    # Remember to save + close
+def delete_table():
+        c.execute("DROP TABLE carpet")
+        conn.commit()
+
+delete_table()
+
+def create_db():
+    c.execute("CREATE TABLE IF NOT EXISTS carpet (ID INTEGER PRIMARY KEY, NOM VARCHAR(255) NOT NULL, PRIX VARCHAR(30) NOT NULL)")
 
 create_db()
 
-def read_from_db():
-    c.execute ('SELECT * FROM carpet ') 
-for row in c.fetchall():
-    print(row)
+def insert_db():
+    c.executemany("INSERT INTO carpet (NOM, PRIX) VALUES(?, ?) ;", (final_carpet))
+    conn.commit()
 
-read_from_db()
+insert_db()
+
+def read_db():
+    Tableau = pd.read_sql_query("SELECT * from carpet", conn)
+    print(Tableau)
+
+    '''for row in c.execute("SELECT * FROM carpet"):
+        print(row)'''
+    conn.close()
+
+result = read_db()
+
+
+
+
+
+
