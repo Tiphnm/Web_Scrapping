@@ -1,0 +1,18 @@
+2021-02-15 19:03:32,801: root :INFO:This is an info:
+2021-02-15 19:03:32,803: root :ERROR:This is an error:
+2021-02-15 19:03:32,822: root :INFO:Initiating my class: start
+2021-02-15 19:03:32,826: root :INFO:Initiating my class: end
+2021-02-15 19:03:32,828: root :INFO:Getting my carpets name from HTML into a list: start
+2021-02-15 19:03:32,848: root :INFO:Getting my carpets name from HTML into a list: end
+2021-02-15 19:03:32,850: root :INFO:Getting my carpets price from HTML into a list: start
+2021-02-15 19:03:32,884: root :INFO:Getting my carpets price from HTML into a list: end
+2021-02-15 19:03:32,886: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 19:03:32,887: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 19:03:32,889: root :INFO:Deleting my table to not repeat rows: start
+2021-02-15 19:03:32,941: root :INFO:Deleting my table to not repeat rows: end
+2021-02-15 19:03:32,943: root :INFO:Creating my Carpet Table: start
+2021-02-15 19:03:33,039: root :INFO:Creating my Carpet Table: end
+2021-02-15 19:03:33,041: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 19:03:33,044: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 19:03:33,047: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 19:03:33,051: root :INFO:Inserting my data from my webscrapping: end
