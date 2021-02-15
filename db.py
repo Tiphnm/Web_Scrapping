@@ -7,7 +7,7 @@ class Table:
         self.mycursor= database.cursor()
 
     def erase_table():
-        self.mycursor.execute("DROP table Carpet")
+        self.mycursor.execute("DROP Table Carpet")
         self.database.commit()
 
     def create_table():
