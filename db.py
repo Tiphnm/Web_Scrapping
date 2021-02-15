@@ -7,16 +7,17 @@ database = mysql.connector.connect(
   user="root",
   password="123", 
 )
-
-label_list = name_carpet()
-price_list = price_carpet()
-
 mycursor= database.cursor()
 
-mycursor.execute("CREATE TABLE IF NOT EXISTS Carpet (ID INT PRIMARY KEY AUTO_INCREMENT, NOM VARCHAR(255), PRIX VARCHAR(30))")
-sql = "INSERT INTO Carpet (NOM, PRIX) VALUES (%s,%s)"
-valeur = final_carpet
-mycursor.executemany(sql, valeur)
+def create_table():
+    mycursor.execute("CREATE TABLE IF NOT EXISTS Carpet (ID INT PRIMARY KEY AUTO_INCREMENT, NOM VARCHAR(255), PRIX VARCHAR(30))")
+    database.commit()
+create_table()
 
-database.commit()
 
+def insert_info():
+    sql = "INSERT INTO Carpet (NOM, PRIX) VALUES (%s,%s)"
+    valeur = final_carpet
+    mycursor.executemany(sql, valeur)
+    database.commit()
+insert_info()
