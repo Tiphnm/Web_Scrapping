@@ -9,14 +9,11 @@ class Table:
         self.mycursor= database.cursor()
         logging.info('Initiating my class: end')
 
-
     def erase_table(self):
         logging.info('Deleting my table to not repeat rows: start')
         self.mycursor.execute("DROP Table Carpet")
         database.commit()
         logging.info('Deleting my table to not repeat rows: end')
-
-
 
     def create_table(self):
         logging.info('Creating my Carpet Table: start')
@@ -24,12 +21,10 @@ class Table:
         database.commit()
         logging.info('Creating my Carpet Table: end')
 
-
-
     def insert_info(self):
         logging.info('Inserting my data from my webscrapping: start')
         sql = "INSERT INTO Carpet (NOM, PRIX) VALUES (%s,%s)"
-        valeur = c.zip_list()
+        valeur = c.zip_list_carpet()
         self.mycursor.executemany(sql, valeur)
         database.commit()
         logging.info('Inserting my data from my webscrapping: end')
