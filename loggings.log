@@ -135,3 +135,269 @@
 2021-02-15 20:19:05,359: root :INFO:Getting my carpets price from HTML into a list: end
 2021-02-15 20:19:05,361: root :INFO:Zipping all my lists in tuple: start
 2021-02-15 20:19:05,363: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:24:51,596: root :INFO:This is an info:
+2021-02-15 20:24:51,597: root :ERROR:This is an error:
+2021-02-15 20:26:48,924: root :INFO:This is an info:
+2021-02-15 20:26:48,926: root :ERROR:This is an error:
+2021-02-15 20:26:51,516: root :INFO:Initiating my class: start
+2021-02-15 20:26:51,521: root :INFO:Initiating my class: end
+2021-02-15 20:26:51,523: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:26:51,581: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:26:51,583: root :INFO:Creating my Tables: start
+2021-02-15 20:26:51,712: root :INFO:Creating my Tables: end
+2021-02-15 20:26:51,714: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:26:51,718: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:26:51,721: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:27:05,209: root :INFO:This is an info:
+2021-02-15 20:27:05,210: root :ERROR:This is an error:
+2021-02-15 20:27:08,014: root :INFO:Initiating my class: start
+2021-02-15 20:27:08,019: root :INFO:Initiating my class: end
+2021-02-15 20:27:08,021: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:27:08,056: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:27:08,058: root :INFO:Creating my Tables: start
+2021-02-15 20:27:08,130: root :INFO:Creating my Tables: end
+2021-02-15 20:27:08,133: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:27:08,135: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:27:08,137: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:29:14,711: root :INFO:This is an info:
+2021-02-15 20:29:14,713: root :ERROR:This is an error:
+2021-02-15 20:29:16,850: root :INFO:Initiating my class: start
+2021-02-15 20:29:16,854: root :INFO:Initiating my class: end
+2021-02-15 20:29:16,855: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:29:16,905: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:29:16,907: root :INFO:Creating my Tables: start
+2021-02-15 20:29:16,998: root :INFO:Creating my Tables: end
+2021-02-15 20:29:17,001: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:29:17,004: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:29:17,006: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:30:40,636: root :INFO:This is an info:
+2021-02-15 20:30:40,637: root :ERROR:This is an error:
+2021-02-15 20:30:42,236: root :INFO:Initiating my class: start
+2021-02-15 20:30:42,241: root :INFO:Initiating my class: end
+2021-02-15 20:30:42,243: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:30:42,275: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:30:42,277: root :INFO:Creating my Tables: start
+2021-02-15 20:30:42,345: root :INFO:Creating my Tables: end
+2021-02-15 20:30:42,346: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:30:42,348: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:30:42,349: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:31:03,412: root :INFO:This is an info:
+2021-02-15 20:31:03,414: root :ERROR:This is an error:
+2021-02-15 20:31:05,171: root :INFO:Initiating my class: start
+2021-02-15 20:31:05,174: root :INFO:Initiating my class: end
+2021-02-15 20:31:05,175: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:31:05,251: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:31:05,253: root :INFO:Creating my Tables: start
+2021-02-15 20:31:05,376: root :INFO:Creating my Tables: end
+2021-02-15 20:31:05,377: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:31:05,378: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:31:05,380: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:31:34,397: root :INFO:This is an info:
+2021-02-15 20:31:34,398: root :ERROR:This is an error:
+2021-02-15 20:31:36,115: root :INFO:Initiating my class: start
+2021-02-15 20:31:36,119: root :INFO:Initiating my class: end
+2021-02-15 20:31:36,121: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:31:36,195: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:31:36,197: root :INFO:Creating my Tables: start
+2021-02-15 20:31:36,314: root :INFO:Creating my Tables: end
+2021-02-15 20:31:36,316: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:31:36,318: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:31:36,319: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:32:29,138: root :INFO:This is an info:
+2021-02-15 20:32:29,140: root :ERROR:This is an error:
+2021-02-15 20:32:30,809: root :INFO:Initiating my class: start
+2021-02-15 20:32:30,811: root :INFO:Initiating my class: end
+2021-02-15 20:32:30,813: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:32:30,897: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:32:30,899: root :INFO:Creating my Tables: start
+2021-02-15 20:32:31,039: root :INFO:Creating my Tables: end
+2021-02-15 20:32:31,040: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:32:31,042: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:32:31,043: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:32:46,956: root :INFO:This is an info:
+2021-02-15 20:32:46,958: root :ERROR:This is an error:
+2021-02-15 20:32:50,784: root :INFO:This is an info:
+2021-02-15 20:32:50,787: root :ERROR:This is an error:
+2021-02-15 20:32:52,583: root :INFO:Initiating my class: start
+2021-02-15 20:32:52,586: root :INFO:Initiating my class: end
+2021-02-15 20:32:52,588: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:32:52,669: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:32:52,672: root :INFO:Creating my Tables: start
+2021-02-15 20:32:52,789: root :INFO:Creating my Tables: end
+2021-02-15 20:32:52,790: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:32:52,792: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:32:52,794: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:33:34,257: root :INFO:This is an info:
+2021-02-15 20:33:34,259: root :ERROR:This is an error:
+2021-02-15 20:33:35,958: root :INFO:Initiating my class: start
+2021-02-15 20:33:35,962: root :INFO:Initiating my class: end
+2021-02-15 20:33:35,964: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:33:36,037: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:33:36,039: root :INFO:Creating my Tables: start
+2021-02-15 20:33:36,211: root :INFO:Creating my Tables: end
+2021-02-15 20:33:36,213: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:33:36,215: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:33:36,217: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:33:36,221: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:33:36,222: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:33:36,226: root :INFO:Inserting my data from my webscrapping: end
+2021-02-15 20:34:10,383: root :INFO:This is an info:
+2021-02-15 20:34:10,386: root :ERROR:This is an error:
+2021-02-15 20:34:12,179: root :INFO:Initiating my class: start
+2021-02-15 20:34:12,183: root :INFO:Initiating my class: end
+2021-02-15 20:34:12,184: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:34:12,283: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:34:12,285: root :INFO:Creating my Tables: start
+2021-02-15 20:34:12,391: root :INFO:Creating my Tables: end
+2021-02-15 20:34:12,393: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:34:12,395: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:34:12,397: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:34:12,399: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:34:12,400: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:34:12,403: root :INFO:Inserting my data from my webscrapping: end
+2021-02-15 20:34:40,715: root :INFO:This is an info:
+2021-02-15 20:34:40,717: root :ERROR:This is an error:
+2021-02-15 20:34:43,107: root :INFO:Initiating my class: start
+2021-02-15 20:34:43,111: root :INFO:Initiating my class: end
+2021-02-15 20:34:43,112: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:34:43,258: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:34:43,259: root :INFO:Creating my Tables: start
+2021-02-15 20:34:43,376: root :INFO:Creating my Tables: end
+2021-02-15 20:34:43,378: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:34:43,379: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:34:43,380: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:34:43,382: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:34:43,383: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:34:43,387: root :INFO:Inserting my data from my webscrapping: end
+2021-02-15 20:35:14,268: root :INFO:This is an info:
+2021-02-15 20:35:14,270: root :ERROR:This is an error:
+2021-02-15 20:35:16,365: root :INFO:Initiating my class: start
+2021-02-15 20:35:16,368: root :INFO:Initiating my class: end
+2021-02-15 20:35:16,369: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:35:16,437: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:35:16,440: root :INFO:Creating my Tables: start
+2021-02-15 20:35:16,550: root :INFO:Creating my Tables: end
+2021-02-15 20:35:16,552: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:35:16,554: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:35:16,556: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:35:16,558: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:35:16,560: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:35:16,565: root :INFO:Inserting my data from my webscrapping: end
+2021-02-15 20:35:55,521: root :INFO:This is an info:
+2021-02-15 20:35:55,523: root :ERROR:This is an error:
+2021-02-15 20:35:57,800: root :INFO:Initiating my class: start
+2021-02-15 20:35:57,805: root :INFO:Initiating my class: end
+2021-02-15 20:35:57,807: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:35:57,897: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:35:57,900: root :INFO:Creating my Tables: start
+2021-02-15 20:35:58,055: root :INFO:Creating my Tables: end
+2021-02-15 20:35:58,065: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:35:58,068: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:35:58,073: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:35:58,079: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:35:58,081: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:35:58,086: root :INFO:Inserting my data from my webscrapping: end
+2021-02-15 20:40:39,228: root :INFO:This is an info:
+2021-02-15 20:40:39,231: root :ERROR:This is an error:
+2021-02-15 20:40:40,973: root :INFO:Initiating my class: start
+2021-02-15 20:40:40,976: root :INFO:Initiating my class: end
+2021-02-15 20:40:40,977: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:40:41,056: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:40:41,058: root :INFO:Creating my Tables: start
+2021-02-15 20:40:41,140: root :INFO:Creating my Tables: end
+2021-02-15 20:40:41,142: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:40:41,143: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:40:41,145: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:40:41,146: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:40:41,148: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:40:41,152: root :INFO:Inserting my data from my webscrapping: end
+2021-02-15 20:42:12,888: root :INFO:This is an info:
+2021-02-15 20:42:12,890: root :ERROR:This is an error:
+2021-02-15 20:42:14,973: root :INFO:Initiating my class: start
+2021-02-15 20:42:14,978: root :INFO:Initiating my class: end
+2021-02-15 20:42:14,980: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:42:15,062: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:42:15,064: root :INFO:Creating my Tables: start
+2021-02-15 20:42:15,197: root :INFO:Creating my Tables: end
+2021-02-15 20:42:15,200: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:42:15,202: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:42:15,204: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:42:15,206: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:42:22,295: root :INFO:This is an info:
+2021-02-15 20:42:22,297: root :ERROR:This is an error:
+2021-02-15 20:42:24,621: root :INFO:Initiating my class: start
+2021-02-15 20:42:24,626: root :INFO:Initiating my class: end
+2021-02-15 20:42:24,628: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:42:24,747: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:42:24,749: root :INFO:Creating my Tables: start
+2021-02-15 20:42:24,868: root :INFO:Creating my Tables: end
+2021-02-15 20:42:24,870: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:42:24,871: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:42:24,873: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:42:24,874: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:42:24,876: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:42:24,881: root :INFO:Inserting my data from my webscrapping: end
+2021-02-15 20:42:45,104: root :INFO:This is an info:
+2021-02-15 20:42:45,106: root :ERROR:This is an error:
+2021-02-15 20:42:47,614: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:42:47,617: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:42:47,653: root :INFO:Initiating my class: start
+2021-02-15 20:42:47,660: root :INFO:Initiating my class: end
+2021-02-15 20:42:47,663: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-15 20:42:47,736: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-15 20:42:47,737: root :INFO:Creating my Tables: start
+2021-02-15 20:42:47,856: root :INFO:Creating my Tables: end
+2021-02-15 20:42:47,858: root :INFO:Inserting my data from my webscrapping: start
+2021-02-15 20:42:47,860: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:42:47,861: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:42:47,864: root :INFO:Zipping all my lists in tuple: start
+2021-02-15 20:42:47,865: root :INFO:Zipping all my lists in tuple: end
+2021-02-15 20:42:47,870: root :INFO:Inserting my data from my webscrapping: end
+2021-02-17 17:49:55,325: root :INFO:This is an info:
+2021-02-17 17:49:55,328: root :ERROR:This is an error:
+2021-02-17 17:50:04,282: root :INFO:This is an info:
+2021-02-17 17:50:04,284: root :ERROR:This is an error:
+2021-02-17 17:50:05,431: root :INFO:Initiating my class: start
+2021-02-17 17:50:05,435: root :INFO:Initiating my class: end
+2021-02-17 17:50:05,440: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-17 17:50:05,544: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-17 17:50:05,547: root :INFO:Creating my Tables: start
+2021-02-17 17:50:05,639: root :INFO:Creating my Tables: end
+2021-02-17 17:50:05,642: root :INFO:Inserting my data from my webscrapping: start
+2021-02-17 17:50:05,644: root :INFO:Zipping all my lists in tuple: start
+2021-02-17 17:50:05,646: root :INFO:Zipping all my lists in tuple: end
+2021-02-17 17:50:05,649: root :INFO:Inserting my data from my webscrapping: end
+2021-02-17 17:50:24,818: root :INFO:This is an info:
+2021-02-17 17:50:24,820: root :ERROR:This is an error:
+2021-02-17 17:50:25,893: root :INFO:Initiating my class: start
+2021-02-17 17:50:25,898: root :INFO:Initiating my class: end
+2021-02-17 17:50:25,900: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-17 17:50:25,950: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-17 17:50:25,952: root :INFO:Creating my Tables: start
+2021-02-17 17:50:26,030: root :INFO:Creating my Tables: end
+2021-02-17 17:50:26,032: root :INFO:Inserting my data from my webscrapping: start
+2021-02-17 17:50:26,034: root :INFO:Zipping all my lists in tuple: start
+2021-02-17 17:50:26,036: root :INFO:Zipping all my lists in tuple: end
+2021-02-17 17:50:26,040: root :INFO:Inserting my data from my webscrapping: end
+2021-02-17 17:50:26,043: root :INFO:Getting my carpets name from HTML into a list: start
+2021-02-17 17:50:26,071: root :INFO:Getting my carpets name from HTML into a list: end
+2021-02-17 17:50:26,073: root :INFO:Getting my carpets price from HTML into a list: start
+2021-02-17 17:50:26,109: root :INFO:Getting my carpets price from HTML into a list: end
+2021-02-17 17:50:26,111: root :INFO:Zipping all my lists in tuple: start
+2021-02-17 17:50:26,112: root :INFO:Zipping all my lists in tuple: end
+2021-02-17 17:50:26,114: root :INFO:Deleting my tables to not repeat rows: start
+2021-02-17 17:50:26,157: root :INFO:Deleting my tables to not repeat rows: end
+2021-02-17 17:50:26,159: root :INFO:Creating my Tables: start
+2021-02-17 17:50:26,271: root :INFO:Creating my Tables: end
+2021-02-17 17:50:26,274: root :INFO:Inserting my data from my webscrapping: start
+2021-02-17 17:50:26,275: root :INFO:Zipping all my lists in tuple: start
+2021-02-17 17:50:26,277: root :INFO:Zipping all my lists in tuple: end
+2021-02-17 17:50:26,280: root :INFO:Inserting my data from my webscrapping: end
+2021-02-17 18:01:36,351: root :INFO:This is an info:
+2021-02-17 18:01:36,354: root :ERROR:This is an error:
+2021-02-17 18:01:40,758: root :INFO:Getting my carpets name from HTML into a list: start
+2021-02-17 18:01:40,779: root :INFO:Getting my carpets name from HTML into a list: end
+2021-02-17 18:07:05,088: root :INFO:This is an info:
+2021-02-17 18:07:05,090: root :ERROR:This is an error:
+2021-02-17 18:07:07,235: root :INFO:Getting my carpets name from HTML into a list: start
+2021-02-17 18:07:07,254: root :INFO:Getting my carpets name from HTML into a list: end
