@@ -28,7 +28,7 @@ class Carpet:
             self.carpet_name_list.append(carpet_name[k])
         logging.info('Getting my carpets name from HTML into a list: end')
 
-        #return self.carpet_name_list
+        return self.carpet_name_list
 
     def price_carpet(self):
         logging.info('Getting my carpets price from HTML into a list: start')
@@ -41,25 +41,24 @@ class Carpet:
             self.carpet_price_list.append(carpet_price[k].split()[0])
         logging.info('Getting my carpets price from HTML into a list: end')
 
-        #return self.carpet_price_list
+        return self.carpet_price_list
     
     def zip_list_carpet(self): 
         logging.info('Zipping all my lists in tuple: start')
 
-        result= zip(self.carpet_name_list, self.carpet_price_list)
-        #print("This is my result:" , result)
-        self.final_carpet = set(result)
+        self.final_carpet = list(zip(self.carpet_name_list, self.carpet_price_list))
         #print(self.final_carpet)
+        #print(type(self.finale_carpet))
         logging.info('Zipping all my lists in tuple: end')
 
-        #return self.final_carpet
+        return self.final_carpet
 
 c = Carpet()
-#c.name_carpet()
-#c.price_carpet()
-#c.zip_list_carpet()
+c.name_carpet()
+c.price_carpet()
+c.zip_list_carpet()
 
-'''
+
 class Mirror: 
     def __init__(self): 
         self.response_mirror = requests.get('https://www.maisonsdumonde.com/FR/fr/c/miroirs-484554f26aa42ef448cafd6fe7ad385e') #je prends les infos from mon url 
@@ -78,7 +77,7 @@ class Mirror:
             title = item.getText()
             mirror_name.append(title)
             self.mirror_name_list.append(mirror_name[k])
-        #return mirror_name_list
+        return self.mirror_name_list
         #print(self.mirror_name_list)
 
         logging.info('Getting my mirrors name from HTML into a list: end')
@@ -92,7 +91,7 @@ class Mirror:
             price = item.getText()
             mirror_price.append(price)
             self.mirror_price_list.append(mirror_price[k].split()[0])
-        #return mirror_price_list
+        return self.mirror_price_list
         #print(self.mirror_price_list)
 
         logging.info('Getting my carpets price from HTML into a list: end')
@@ -100,17 +99,16 @@ class Mirror:
     def zip_list_mirror(self):
         logging.info('Zipping all my lists in tuple: start')
 
-        result_mirror= list(zip(self.mirror_name_list, self.mirror_price_list)) """PBLM ZIP"""
+        result_mirror= list(zip(self.mirror_name_list, self.mirror_price_list)) 
         #print("This is my result:" , result)
-        self.final_mirror = result_mirror
         #print(self.final_mirror)
         logging.info('Zipping all my lists in tuple: end')
 
-        #return self.final_mirror
+        return result_mirror
 
 m = Mirror()
-#m.name_mirror()
-#m.price_mirror()
-#m.zip_list_mirror()
+m.name_mirror()
+m.price_mirror()
+m.zip_list_mirror()
 
-'''
+
