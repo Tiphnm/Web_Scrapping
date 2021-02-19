@@ -1,7 +1,6 @@
 from main import *
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, request, jsonify
 import mysql.connector
-
 
 
 app = Flask(__name__)
@@ -52,6 +51,20 @@ def api_mirror():
     sql_query = conn.cursor()
     sql_query.execute("SELECT * FROM Mirror")
     output = sql_query.fetchall()
+    return jsonify(output)
+
+@app.route('/api_carpet_price')
+def ranking_price(): 
+    #http://http://localhost:4050/api_carpet_price?PRIX=200
+
+    #carpet_name = request.args.get("nom")
+    carpet_price = request.args.get("PRIX")
+
+    sql_query.execute("SELECT * FROM Carpet WHERE PRIX <= ('%s')" %(carpet_price))
+    #result = "SELECT * FROM Carpet WHERE PRIX <= ('%s')" %(carpet_price)
+    #print(result)
+    output = sql_query.fetchall()
+    #print(output)
     return jsonify(output)
 
 if __name__ == "__main__": 
