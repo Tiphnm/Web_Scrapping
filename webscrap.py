@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup #pour utiliser BeautifulSoup j'ai besoin de bs4
 import logging 
+import unidecode 
 
 logging.basicConfig(filename='loggings.log', level=logging.INFO,
                     format='%(asctime)s: %(name)s :%(levelname)s:%(message)s')
@@ -24,7 +25,9 @@ class Carpet:
 
         for k, item in enumerate(title_name):
             title = item.getText()
-            carpet_name.append(title)
+            unidecodizer = unidecode.unidecode(title)
+            #print(unidecodizer)
+            carpet_name.append(unidecodizer)
             self.carpet_name_list.append(carpet_name[k])
         logging.info('Getting my carpets name from HTML into a list: end')
 
@@ -75,7 +78,8 @@ class Mirror:
 
         for k, item in enumerate(title_name):
             title = item.getText()
-            mirror_name.append(title)
+            unidecodizer = unidecode.unidecode(title)
+            mirror_name.append(unidecodizer)
             self.mirror_name_list.append(mirror_name[k])
         return self.mirror_name_list
         #print(self.mirror_name_list)
