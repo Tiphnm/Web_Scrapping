@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup #pour utiliser BeautifulSoup j'ai besoin de bs4
 import logging 
 import unidecode 
-
+import smtplib, ssl
+from email.mime.text import MIMEText
 
 logging.basicConfig(filename='loggings.log', level=logging.INFO,
                     format='%(asctime)s: %(name)s :%(levelname)s:%(message)s')
@@ -116,3 +117,16 @@ m.name_mirror()
 m.price_mirror()
 m.zip_list_mirror()
 
+sender = "tminguet.simplon@gmail.com"
+receivers = "tiphaine.minguet@gmail.com"
+body_of_email = "Something is new on Maison du Monde, go check !"
+
+msg = MIMEText(body_of_email, "html")
+msg["Subject"] = "Scrapping Text"
+msg["From"] = sender
+msg["To"] = receivers
+
+s = smtplib.SMTP_SSL(host = "smtp.gmail.com", port = 465)
+s.login(user="tminguet.simplon@gmail.com", password="simplon2021")
+s.sendmail(sender, receivers, msg.as_string())
+s.quit()
