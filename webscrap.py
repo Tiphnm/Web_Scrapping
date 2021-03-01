@@ -2,8 +2,7 @@ import requests
 from bs4 import BeautifulSoup #pour utiliser BeautifulSoup j'ai besoin de bs4
 import logging 
 import unidecode 
-from datetime import datetime 
-import os 
+
 
 logging.basicConfig(filename='loggings.log', level=logging.INFO,
                     format='%(asctime)s: %(name)s :%(levelname)s:%(message)s')
@@ -117,19 +116,3 @@ m.name_mirror()
 m.price_mirror()
 m.zip_list_mirror()
 
-
-def write_file(filename,data):
-    if os.path.isfile(filename):
-        with open(filename, 'a') as f:          
-            f.write('\n' + data)   
-    else:
-        with open(filename, 'w') as f:                   
-            f.write(data)
-
-def print_time():   
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")
-    data = "Current Time = " + current_time
-    return data
-
-write_file('cron.txt', print_time())
