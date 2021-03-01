@@ -54,17 +54,25 @@ def api_mirror():
     return jsonify(output)
 
 @app.route('/api_carpet_price')
-def ranking_price(): 
+def ranking_price_carpet(): 
     #http://http://localhost:4050/api_carpet_price?PRIX=200
 
-    #carpet_name = request.args.get("nom")
     carpet_price = request.args.get("PRIX")
 
     sql_query.execute("SELECT * FROM Carpet WHERE PRIX <= ('%s')" %(carpet_price))
-    #result = "SELECT * FROM Carpet WHERE PRIX <= ('%s')" %(carpet_price)
     #print(result)
     output = sql_query.fetchall()
     #print(output)
+    return jsonify(output)
+
+@app.route('/api_mirror_price')
+def ranking_price_mirror(): 
+    #http://http://localhost:4050/api_mirror_price?PRIX=200
+
+    mirror_price = request.args.get("PRIX")
+
+    sql_query.execute("SELECT * FROM Mirror WHERE PRIX <= ('%s')" %(mirror_price))
+    output = sql_query.fetchall()
     return jsonify(output)
 
 if __name__ == "__main__": 

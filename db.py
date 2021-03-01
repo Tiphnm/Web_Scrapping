@@ -18,7 +18,7 @@ class Table:
 
     def create_table(self):
         logging.info('Creating my Tables: start')
-        self.mycursor.execute("CREATE TABLE IF NOT EXISTS Carpet (ID INT PRIMARY KEY AUTO_INCREMENT, NOM VARCHAR(255), PRIX VARCHAR(30))")
+        self.mycursor.execute("CREATE TABLE IF NOT EXISTS Carpet (ID INT PRIMARY KEY AUTO_INCREMENT, NOM VARCHAR(255), PRIX VARCHAR(30), DATE DATETIME)")
 
         self.mycursor.execute("CREATE TABLE IF NOT EXISTS Mirror (ID INT PRIMARY KEY AUTO_INCREMENT, NOM VARCHAR(255), PRIX VARCHAR(30))")
         database.commit()
@@ -26,13 +26,13 @@ class Table:
 
     def insert_info(self):
         logging.info('Inserting my data from my webscrapping: start')
-        carpet_sql = "INSERT INTO Carpet (NOM, PRIX) VALUES (%s,%s)"
+        carpet_sql = "INSERT INTO Carpet (NOM, PRIX, DATE) VALUES (%s,%s, %s)"
         carpet_valeur = c.zip_list_carpet()
-        self.mycursor.executemany(carpet_sql, carpet_valeur)
+        self.mycursor.executemany(carpet_sql, carpet_valeur, current_timestamp())
         
         mirror_sql = "INSERT INTO Mirror (NOM, PRIX) VALUES (%s,%s)"
         mirror_valeur = m.zip_list_mirror()
-        print(mirror_valeur)
+        #print(mirror_valeur)
         self.mycursor.executemany(mirror_sql, mirror_valeur)
 
         database.commit()
