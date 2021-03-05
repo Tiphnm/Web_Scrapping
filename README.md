@@ -1,9 +1,9 @@
 # Web_Scrapping
 
-Goal: Learn how to webscrap after two months of learning how to code from scratch.
+Build a mini **fullstak** project from scratch, two months after the beginning of our coding courses. 
 
 ## Project 
-Chossing the website of our choice, we scrapped the data to fill our database (MYSQL). Then we used Flask to create roots for our potential users. The final step was to put all the logic in docker's container. 
+Choosing the website of our choice, we scrapped the data to fill our **database** (MYSQL). Then we used **Flask** to create roots for our potential users. The final step was to put all the logic in **docker's** container. 
 
 ### Languages and tools 
 
@@ -11,8 +11,16 @@ Python, MySQL, Flask, Docker
 
 ### Structure 
  - main.py 
- - Webscrap.py 
- - Db.py 
+ - webscrap.py 
+ - db.py 
  - test.py 
  - api.py 
  - logging.log 
+
+#### Commands 
+
+`docker exec -it <containername/id> bash`
+
+`docker exec -it <containername/id> mysql -u<username> -p<password> 
+
+
