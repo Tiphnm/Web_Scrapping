@@ -24,7 +24,7 @@ Python, MySQL, Flask, Docker
 `docker exec -it <containername/id> mysql -u<username> -p<password>`
 
 
-![Alt Text](https://media.giphy.com/media/wvQIqJyNBOCjK/giphy.gif)
+![Alt Text](https://media.giphy.com/media/o7OChVtT1oqmk/giphy.gif)
 
 
 
