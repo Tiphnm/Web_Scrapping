@@ -24,6 +24,8 @@ Python, MySQL, Flask, Docker
 `docker exec -it <containername/id> mysql -u<username> -p<password>`
 
 
+If it doesn't work, don't panic ... 
+
 ![Alt Text](https://media.giphy.com/media/o7OChVtT1oqmk/giphy.gif)
 
 
