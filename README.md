@@ -3,9 +3,9 @@
 Goal: Learn how to webscrap after two months of learning how to code from scratch.
 
 ## Project 
-Chossing the website of our choice, we scrapped the data to fill our database (MYSQL). 
-Then we used Flask to create roots for our potential users.  
-The final step was to put all the logic in docker's container. 
+- Chossing the website of our choice, we scrapped the data to fill our database (MYSQL). 
+- Then we used Flask to create roots for our potential users.  
+- The final step was to put all the logic in docker's container. 
 
 ### Languages and tools 
 
