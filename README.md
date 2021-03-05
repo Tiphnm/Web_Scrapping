@@ -1,17 +1,15 @@
 # Web_Scrapping
 
-Goal: Learn how to webscrap. 
+Goal: Learn how to webscrap after two months of learning how to code from scratch.
 
 ## Project 
-
-Free to choose the website of our choise, I choose Maison du Monde. Through a Python script I scrapped the needed data: carpet(price and name), mirrors (price and name). 
-With SQL I created two tables: Carpet and Mirrors. 
-Finally with Flask I created roots to show my data to my potential users. 
+Chossing the website of our choice, we scrapped the data to fill our database (MYSQL). 
+Then we used Flask to create roots for our potential users.  
 The final step was to put all the logic in docker's container. 
 
 ### Languages and tools 
 
-Python, Flask, MySQL, Docker
+Python, MySQL, Flask, Docker
 
 ### Structure 
  - main.py 
