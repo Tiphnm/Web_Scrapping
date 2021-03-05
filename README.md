@@ -21,6 +21,6 @@ Python, MySQL, Flask, Docker
 
 `docker exec -it <containername/id> bash`
 
-`docker exec -it <containername/id> mysql -u<username> -p<password> 
+`docker exec -it <containername/id> mysql -u<username> -p<password>
 
 
