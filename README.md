@@ -1,6 +1,6 @@
 # Web_Scrapping
 
-Build a mini **fullstak** project from scratch, two months after the beginning of our coding courses. 
+Build a mini **fullstack** project from scratch, two months after the beginning of our coding courses. 
 
 ## Project 
 Choosing the website of our choice, we scrapped the data to fill our **database** (MYSQL). Then we used **Flask** to create roots for our potential users. The final step was to put all the logic in **docker's** container. 
